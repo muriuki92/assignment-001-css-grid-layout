@@ -1,7 +1,7 @@
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns:1fr 1fr 1fr  ;
+    grid-template-columns:1fr 7fr 1fr  ;
     grid-template-rows:0.5fr 4fr 0.5fr ;
     grid-area: 
     "HEADER HEADER HEADER "
@@ -22,7 +22,7 @@ HEADER{
 }
 #MAINCONTENT{
     background-color:#8BF10A ;
-    grid-area: MainContent;
+    grid-area: MAINCONTENT;
 }
 #RIGHTSIDEBAR{
     background-color: #7FC242;
